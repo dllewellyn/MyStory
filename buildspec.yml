@@ -5,3 +5,6 @@ phases:
     commands:
     - echo Entered the install phase...
     - ./gradlew shadowJar
+artifacts:
+  files:
+    - build/libs/*.jar
